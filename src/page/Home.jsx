@@ -9,8 +9,8 @@ export default function Home() {
         <img src={Hero} alt="intro" />
       </div>
 
-      <div className='absolute z-10 my-[470px]  w-[500px] ml-10 lg:mt-[800px] lg:mx-40 lg:w-[800px]'>
-        <img className='w-full' src={CurvyM} alt='curvey'/>
+      <div className='absolute z-10 my-[470px] w-[400px] lg:mt-[800px] lg:mx-40 lg:w-[800px]'>
+        <img  src={CurvyM} alt='curvey'/>
       </div>
 
       <div className='z-20 text-center lg:-mt-20 my-20 px-10 grid gap-5'>
