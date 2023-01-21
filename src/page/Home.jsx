@@ -5,7 +5,7 @@ import CurvyD from '../asset/images/bg-curvy-desktop.svg'
 export default function Home() {
   return <div name='home' className='w-full z-30 relative -my-10 bg-intro'>
     <div className=' h-[600px] lg:h-[1000px] grid place-items-center gap-10 mx-auto '>
-      <div className='z-20 w-[500px] md:w-[600px] px-10 mt-40 lg:mt-[100px] lg:w-[600px]'>
+      <div className='z-20 w-[450px] md:w-[600px] px-10 mt-40 lg:mt-[100px] lg:w-[600px]'>
         <img src={Hero} alt="intro" />
       </div>
 

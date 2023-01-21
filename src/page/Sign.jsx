@@ -10,7 +10,7 @@ export default function Sign() {
        
         <form className='grid lg:grid-cols-2 place-items-center gap-5 z-30'>
           <input className='bg-white text-black rounded-full px-5 lg:px-10 py-4 outline-none' type="email" placeholder='email@example.com' />
-          <button className='rounded-full px-20 lg:px-10 py-4 button-started text-sm font-bold' type="submit">Get Started For Free</button>
+          <button className='rounded-full px-20 lg:px-10 py-5 button-started text-sm font-bold' type="submit">Get Started For Free</button>
         </form>
       </div>
     </div>
