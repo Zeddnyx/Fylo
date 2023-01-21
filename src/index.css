@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.nav-parent {
+  @apply fixed bg-intro w-full z-50
+}
+
+.nav {
+  @apply flex justify-between text-xs text-white px-5 py-5 lg:py-10 items-center
+} 
+
+.nav-logo {
+  @apply w-[90px]
+}
+
+.nav-list {
+  @apply flex gap-4
+}
+
+.button-started {
+  @apply bg-gradient-to-r from-cyan to-blue
+}
