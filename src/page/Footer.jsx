@@ -6,25 +6,28 @@ import Phone from '../asset/images/icon-phone.svg'
 export default function Footer() {
 
   const LI = props => {
-    return <li className='hover:text-white text-gray-300 text-xm'>
+    return <li className='hover:text-white text-gray-300 py-1'>
       {props.li}
     </li>
   }
 
-  return <footer className='bg-footer -mt-60 z-10 w-full h-[900px] lg:h-[520px] py-60 lg:py-80 px-10 grid gap-10 lg:text-xs'>
-    <div>
+  return <footer className='bg-footer text-xs  z-40 w-full h-screen lg:h-[520px] py-10 lg:py-80 px-10 grid gap-10 lg:text-xs'>
+    <div className='w-36 lg:w-40'>
       <img src={Fylo} />
     </div>
+     <div className='absolute h-40 w-full top-0 my-80'>
+      
+     </div>
 
     <div className='grid grid-cols-1 gap-10 lg:grid-cols-4'>
       <div className='grid gap-5 lg:w-[600px] lg:grid-cols-2 col-span-2'>
         <p className='flex gap-2 lg:w-96'>
-          <img src={Loc} className='w-6 h-5 lg:w-5 lg:2'/> 
+          <img src={Loc} className='w-6 h-5 lg:w-5 lg:2' alt='loc'/> 
           <p className='pr-40'>dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatatqui minim labore adipisicing minim sint cillum sint consectetur cupidatat..</p>
         </p>
         <div className='grid gap-10'>
-          <p className='flex gap-2'><img src={Phone} className='w-5 h-5 lg:w-3 lg:h-3'/>+1 666 666 666</p>
-          <p className='flex gap-2'><img src={Email} className='w-5 h-5 lg:w-3 lg:h-3'/>@fylo.com</p>
+          <p className='flex gap-2'><img src={Phone} alt='phone' className='w-3 h-3 lg:w-3 lg:h-3'/>+1 666 666 666</p>
+          <p className='flex gap-2'><img src={Email} alt='email' className='w-3 h-3 lg:w-3 lg:h-3'/>email@fylo.com</p>
         </div>
       </div>
 

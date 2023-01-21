@@ -11,7 +11,7 @@ export default function Feature() {
         <img src={props.img} alt={props.alt} />
       </div>
 
-      <div className='flex flex-col gap-3 lg:px-10'>
+      <div className='flex flex-col gap-3 sm:px-20 lg:px-10'>
         <h4 className='font-bold text-lg'>{props.title}</h4>
         <p>{props.lorem}</p>
       </div>
@@ -22,7 +22,7 @@ export default function Feature() {
     <div className='grid grid-cols-1 lg:grid-cols-2 gap-36'>
       <Feat
         img={Acces} alt='Acces Anywhere' 
-        title='Acces your files, nywhere'
+        title='Acces your files, anywhere'
         lorem='The abillity to use a smartphone, table, or computer to access your account means your files follow you everywhere.'
       />
       <Feat

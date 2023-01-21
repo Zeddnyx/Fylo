@@ -5,7 +5,7 @@ import Fylo from '../asset/images/logo.svg'
 
 export default function Nav() { 
   const Li = props => { 
-    return <li className='text-gray-600 hover:text-white cursor-pointer'> <Link to={props.name} smooth={true} duration={800} > {props.li} </Link> </li>
+    return <li className='text-gray-300 hover:text-white cursor-pointer'> <Link to={props.name} smooth={true} duration={800} > {props.li} </Link> </li>
   } 
   return <nav className='nav-parent'> 
     <div className='nav'> 
