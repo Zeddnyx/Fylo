@@ -9,7 +9,7 @@ export default function Home() {
         <img src={Hero} alt="intro" />
       </div>
 
-      <div className='absolute z-10 my-[470px] w-[400px] lg:mt-[800px] lg:mx-40 lg:w-[800px]'>
+      <div className='absolute z-10 my-[500px] w-[300px] lg:mt-[800px] lg:mx-40 lg:w-[800px]'>
         <img  src={CurvyM} alt='curvey'/>
       </div>
 
