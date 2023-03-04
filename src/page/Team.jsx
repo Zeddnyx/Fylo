@@ -38,26 +38,22 @@ export default function Team() {
 
 
     </div>
-      <div className='hidden relative lg:flex top-20 '>
+    <div className='mt-20 grid gap-5 xl:grid-cols-3 z-20'>
+      <div className='relative xl:col-span-3'>
         <img src={Quote} alt='quotes'/>
       </div>
-
-      <div className='mt-20 grid gap-5 lg:grid-cols-3 z-20'>
-        <div className='relative lg:hidden'>
-          <img src={Quote} alt='quotes'/>
-        </div>
-        <Comment img={Pro1} name='Satish Patel' 
-          work='Founder & CEO, Huddle' alt='Satish Patel'
-          title='Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.' 
-        />
-        <Comment img={Pro2} name='Bruce McKenzie' 
-          work='Founder & CEO, Huddle' alt='Bruce Mckenzie'
-          title='Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.' 
-        />
-        <Comment img={Pro3} name='Iva Boyd' 
-          work='Founder & CEO, Huddle' alt='Iva Boyd'
-          title='Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.' 
-        />
-      </div>
+      <Comment img={Pro1} name='Satish Patel' 
+        work='Founder & CEO, Huddle' alt='Satish Patel'
+        title='Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.' 
+      />
+      <Comment img={Pro2} name='Bruce McKenzie' 
+        work='Founder & CEO, Huddle' alt='Bruce Mckenzie'
+        title='Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.' 
+      />
+      <Comment img={Pro3} name='Iva Boyd' 
+        work='Founder & CEO, Huddle' alt='Iva Boyd'
+        title='Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.' 
+      />
+    </div>
   </div>
 }

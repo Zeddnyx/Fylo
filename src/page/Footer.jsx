@@ -11,14 +11,13 @@ export default function Footer() {
     </li>
   }
 
-  return <footer className='bg-footer text-xs  z-40 w-full h-screen lg:h-[520px] py-10 lg:py-80 px-10 grid gap-10 lg:text-xs'>
-    <div className='w-36 lg:w-40'>
+  return <footer className='bg-footer text-xs  z-40 h-screen lg:h-[520px] py-10 lg:py-80 px-10 grid gap-10 lg:text-xs'>
+    <div className='w-full'>
       <img src={Fylo} />
     </div>
      <div className='absolute h-40 w-full top-0 my-80'>
       
      </div>
-
     <div className='grid grid-cols-1 gap-10 lg:grid-cols-4'>
       <div className='grid gap-5 lg:w-[600px] lg:grid-cols-2 col-span-2'>
         <p className='flex gap-2 lg:w-96'>
